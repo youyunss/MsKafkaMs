@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8)
+#aux_source_directory(. DIR_LIB_SRCS_PRO)
+#aux_source_directory(. DIR_LIB_SRCS_CON)
+add_library(producerhelper producer.h)
+add_library(consumerhelper consumer.h)
